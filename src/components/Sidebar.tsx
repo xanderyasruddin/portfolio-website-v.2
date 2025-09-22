@@ -27,13 +27,13 @@ function Sidebar() {
                     className='text-gray-400 hover:text-white duration-150 ease-in-out'>
                         <Github />
                     </a>
-                    <a
+                    {/* <a
                     href="/Alexander Yasruddin CV.pdf"
                     target="_blank"
                     className='text-gray-400 hover:text-white duration-150 ease-in-out border-2 rounded px-1 -mt-0.5'
                     >
                         Resume
-                    </a>
+                    </a> */}
                 </div>
                 <div className='hidden mt-10 lg:flex lg:flex-col lg:space-y-2'>
                     <Link to="About" smooth={true} duration={500} spy={true} offset={-50}

@@ -41,26 +41,6 @@ function Experience() {
             <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
                         <div className='flex flex-row'>
                             <div className='text-sm pt-1 rounded h-20 w-36 whitespace-nowrap text-muted-foreground'>
-                                Nov 20-Apr 21
-                            </div>
-                            <div className='flex flex-col ml-5'>
-                                <h1 className='text-lg font-bold'>Plug-In & Config Manager <span className='font-normal'>at</span> AvatarcraftMC</h1>
-                                <p className='text-sm text-muted-foreground'>Managed and configured Minecraft server plug-ins,
-                                    implementing feature changes based on staff direction and player feedback. Collaborated with 
-                                    backend developers to support server maintenence and stability checks. 
-                                    server-side logic, and a responsive UI.</p>
-                                <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                    <Badge variant="secondary" className='bg-green-800'>Management</Badge>
-                                    <Badge variant="secondary">Java</Badge>   
-    
-                                </div>      
-                            </div>
-                        </div>
-            </div>
-
-            <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
-                        <div className='flex flex-row'>
-                            <div className='text-sm pt-1 rounded h-20 w-36 whitespace-nowrap text-muted-foreground'>
                                 Aug-Oct 19
                             </div>
                             <div className='flex flex-col ml-11.5'>

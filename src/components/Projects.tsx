@@ -15,6 +15,26 @@ function Projects() {
         </div>
         <div className='flex flex-col justify-center items-center gap-2'>
 
+        <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
+                    <div className='flex flex-row'>
+                        <img src='./404.png'
+                        className='rounded h-20 w-36'
+                        />
+                        <div className='flex flex-col ml-5'>
+                            <h1 className='text-lg font-bold'>Cybersecurity Analysis Tool</h1>
+                            <p className='text-sm text-muted-foreground'>Built a network packet sniffer using protocol parsing
+                                to analyse network traffic to detect anomalies and reveal any potential security vulnerabilities.
+                            </p>
+                                <div className='flex flex-row flex-wrap mt-3 gap-3'>
+                                <Badge variant="secondary" className='bg-green-800'>Python</Badge>
+                                <Badge variant="secondary" className='bg-green-800'>Scapy</Badge>   
+                                <Badge variant="secondary">Cybersecurity</Badge>
+                            </div>  
+                        </div>
+                        
+                    </div>
+            </div>
+
             <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
                     <div className='flex flex-row'>
                         <img src='./echo screenshot.png'
@@ -52,27 +72,6 @@ function Projects() {
                             </div>  
                         </div>
                         
-                    </div>
-            </div>
-
-            <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
-                    <div className='flex flex-row'>
-                        <img src='./animecloud website.png'
-                        className='rounded h-20 w-36'
-                        />
-                        <div className='flex flex-col ml-5'>
-                            <h1 className='text-lg font-bold'>AnimeCloud</h1>
-                            <p className='text-sm text-muted-foreground'>Designed a website for general information and in-game
-                                purchases. Configured and developed a public Minecraft server based on the popular anime, Attack on Titan.</p>
-                                <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                <Badge variant="secondary" className='bg-green-800'>Javascript</Badge>
-                                <Badge variant="secondary" className='bg-green-800'>HTML</Badge>
-                                <Badge variant="secondary" className='bg-green-800'>CSS</Badge>
-                                <Badge variant="secondary">Java</Badge>
-                                <Badge variant="secondary">Game Design</Badge>
-
-                            </div>  
-                        </div>
                     </div>
             </div>
 
