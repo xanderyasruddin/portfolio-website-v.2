@@ -17,7 +17,7 @@ function Projects() {
 
         <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
                     <div className='flex flex-row'>
-                        <img src='./404.png'
+                        <img src='./cybertool.png'
                         className='rounded h-20 w-36'
                         />
                         <div className='flex flex-col ml-5'>
@@ -27,8 +27,8 @@ function Projects() {
                             </p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
                                 <Badge variant="secondary" className='bg-green-800'>Python</Badge>
-                                <Badge variant="secondary" className='bg-green-800'>Scapy</Badge>   
-                                <Badge variant="secondary">Cybersecurity</Badge>
+                                <Badge variant="secondary" className='bg-green-800'>Cybersecurity</Badge>   
+                                <Badge variant="secondary">Scapy</Badge>
                             </div>  
                         </div>
                         
@@ -57,18 +57,19 @@ function Projects() {
 
             <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
                     <div className='flex flex-row'>
-                        <img src='./404.png'
+                        <img src='./stockGraph.png'
                         className='rounded h-20 w-36'
                         />
                         <div className='flex flex-col ml-5'>
-                            <h1 className='text-lg font-bold'>Stock Market Quoter</h1>
-                            <p className='text-sm text-muted-foreground'>Developed a GUI application that takes stocks as input 
-                                and returns financial information, such as stock price changes and the highs and lows of the 
-                                trading day, using APIs and further practicing my use of Tkinter and OOP.</p>
+                            <h1 className='text-lg font-bold'>ML Model Comparison: Stock Prediction</h1>
+                            <p className='text-sm text-muted-foreground'>Compared the accuracy of two supervised learning models,
+                                Support Vector Classifier and Random Forest, using features such as closing price, 7-day SMA and 30-day volatility.
+                            </p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
                                 <Badge variant="secondary" className='bg-green-800'>Python</Badge>
-                                <Badge variant="secondary">Tkinter</Badge>   
-                                <Badge variant="secondary">yFinance</Badge>    
+                                <Badge variant="secondary" className='bg-green-800'>Machine Learning</Badge>
+                                <Badge variant="secondary">sklearn</Badge>   
+                                <Badge variant="secondary">Pandas</Badge>    
                             </div>  
                         </div>
                         
