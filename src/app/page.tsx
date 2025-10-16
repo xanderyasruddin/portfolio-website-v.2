@@ -1,11 +1,6 @@
 import Main from "@/components/Main";
 import Sidebar from "@/components/Sidebar";
-import { Inter, Space_Mono } from "next/font/google";
-
-const spaceMono = Space_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"]
-})
+import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
