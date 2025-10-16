@@ -1,6 +1,9 @@
 import React from 'react'
 import { Separator } from './ui/separator'
 import { Badge } from './ui/badge'
+import { FaFolder , FaFolderOpen } from "react-icons/fa";
+import Link from 'next/link';
+
 
 function Projects() {
   return (
@@ -15,7 +18,7 @@ function Projects() {
         </div>
         <div className='flex flex-col justify-center items-center gap-2'>
 
-        <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
+            <div className='w-full p-5 rounded hover:bg-neutral-800 hover:shadow-2xl duration-150'>
                     <div className='flex flex-row'>
                         <img src='./cybertool.png'
                         className='rounded h-20 w-36'
@@ -26,7 +29,7 @@ function Projects() {
                                 to analyse network traffic to detect anomalies and reveal any potential security vulnerabilities.
                             </p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                <Badge variant="secondary" className='bg-green-800'>Python</Badge>
+                                <Badge variant="secondary" className='bg-green-500 text-black'>Python</Badge>
                                 <Badge variant="secondary" className='bg-green-800'>Cybersecurity</Badge>   
                                 <Badge variant="secondary">Scapy</Badge>
                             </div>  
@@ -46,10 +49,11 @@ function Projects() {
                                 using Next.js and Prisma ORM, implementing database schemas, 
                                 server-side logic, and a responsive UI.</p>
                             <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                <Badge variant="secondary" className='bg-green-800'>Next.js</Badge>
-                                <Badge variant="secondary">Tailwind CSS</Badge>   
-                                <Badge variant="secondary">Neon Database</Badge>   
-                                <Badge variant="secondary">shadcn/ui</Badge>      
+                                <Badge variant="secondary" className='bg-green-500 text-black'>Next.js</Badge>
+                                <Badge variant="secondary" className='bg-green-800'>Website Design</Badge>
+                                <Badge variant="secondary">Full Stack</Badge>   
+                                <Badge variant="secondary">Neon Postgres</Badge>   
+                                <Badge variant="secondary">Clerk</Badge>      
                             </div>      
                         </div>
                     </div>
@@ -66,7 +70,7 @@ function Projects() {
                                 Support Vector Classifier and Random Forest, using features such as closing price, 7-day SMA and 30-day volatility.
                             </p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                <Badge variant="secondary" className='bg-green-800'>Python</Badge>
+                                <Badge variant="secondary" className='bg-green-500 text-black'>Python</Badge>
                                 <Badge variant="secondary" className='bg-green-800'>Machine Learning</Badge>
                                 <Badge variant="secondary">sklearn</Badge>   
                                 <Badge variant="secondary">Pandas</Badge>    
@@ -87,14 +91,25 @@ function Projects() {
                                 utilising third-party libraries like Framer Motion to create visually 
                                 appealing animation, to showcase my projects and credentials.</p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
-                                <Badge variant="secondary" className='bg-green-800'>React.js</Badge>
+                                <Badge variant="secondary" className='bg-green-500 text-black'>React.js</Badge>
+                                <Badge variant="secondary" className='bg-green-800 '>Website Design</Badge>
                                 <Badge variant="secondary">Framer Motion</Badge>       
                             </div>  
                         </div>
                     </div>
             </div>
 
-
+            <Link
+            href="/archive"
+            className="w-full p-5 rounded text-gray-400 hover:text-white hover:font-bold duration-150 ease-in-out cursor-pointer flex items-center gap-2 group">
+            Project Archive
+                <span className='group-hover:hidden duration-150 ease-in-out'>
+                    <FaFolder />
+                </span>
+                <span className='hidden group-hover:inline duration-150 ease-in-out'>
+                    <FaFolderOpen />
+                </span>
+            </Link>
         </div>
     </div>
   )
