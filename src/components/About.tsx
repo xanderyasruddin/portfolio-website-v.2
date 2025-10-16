@@ -13,7 +13,7 @@ function About() {
           </div>
         </div>
         <div className='lg:mt-35 text-gray-400'>
-        A junior developer who's passionate about building user-focused software. 
+        A junior developer who’s passionate about building user-focused software. 
         My interests lie in software engineering, machine learning, and web development.
         </div>
         <div className='mt-5 text-gray-400'>
