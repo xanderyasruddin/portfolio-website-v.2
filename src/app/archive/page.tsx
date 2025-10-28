@@ -26,6 +26,24 @@ function Archive() {
             </TableHeader>
             <TableBody>
 
+            <TableRow>
+                <TableCell className="text-gray-400 p-3">2025</TableCell>
+                <TableCell>ML Network Attack Detector</TableCell>
+                <TableCell className='hidden lg:block'>
+                    <Badge variant="secondary" className='bg-green-500 text-black mr-1 mt-1'>Python</Badge>
+                    <Badge variant="secondary" className='bg-green-800 mr-1'>Machine Learning</Badge>
+                    <Badge variant="secondary" className='bg-green-800 mr-1'>Cybersecurity</Badge> 
+                    <Badge variant="secondary">sklearn</Badge>
+                </TableCell>
+                <TableCell className="text-right text-gray-400 p-3">
+                    <a
+                    href="https://github.com/xanderyasruddin/attack-detector-rf"
+                    target="_blank"
+                    className='hover:text-white duration-150 ease-in-out cursor-pointer'
+                    >Github</a>
+                </TableCell>
+                </TableRow>
+
                 <TableRow>
                 <TableCell className="text-gray-400 p-3">2025</TableCell>
                 <TableCell>Cybersecurity Analysis Tool</TableCell>
