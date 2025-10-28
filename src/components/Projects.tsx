@@ -28,7 +28,7 @@ function Projects() {
                             <h1 className='text-lg font-bold'>ML Network Attack Detector</h1>
                             <p className='text-sm text-muted-foreground'>Built a machine learning model that detects 
                                 network attacks using Random Forest Classification on KDD99 data with 99% accuracy, 
-                                improving from a previous 33% accurate model</p>
+                                improving from a previous 33% accurate model.</p>
                                 <div className='flex flex-row flex-wrap mt-3 gap-3'>
                                 <Badge variant="secondary" className='bg-green-500 text-black'>Python</Badge>
                                 <Badge variant="secondary" className='bg-green-800 '>Machine Learning</Badge>
